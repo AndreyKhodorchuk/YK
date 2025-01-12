@@ -240,10 +240,11 @@ body {
 /* mobil menu the end */
 /* search */
 .header__container-search {
+
     position: relative;
     box-sizing: border-box;
     width: fit-content;
-    margin-left: 60px;
+    margin-left: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,6 +309,7 @@ body {
 }
 
 .header__iconContainer-search {
+    fill: #000;
     padding-top: 5px;
     width: fit-content;
     transition: all 0.3s ease;
